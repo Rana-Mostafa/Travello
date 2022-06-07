@@ -1,0 +1,58 @@
+* {
+font-family: Lato, sans-serif;
+box-sizing: border-box;
+}
+
+.introImage{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('D:/ITI/Web/Project/Offers imgs/1.jpg');
+  min-height: 100%;
+  position:relative; 
+  opacity:0.75
+}
+
+.introStyle{
+	white-space:nowrap;
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#fff;
+	background-color:#000;
+	font-size:24px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgBox{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 20px;
+    max-width: 35%;
+}
+
+.imgBox_home {
+    padding: 30px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 13px;
+    color: #888;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.offer{
+	width:400px;
+	height:300px;
+}

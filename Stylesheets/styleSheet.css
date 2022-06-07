@@ -1,0 +1,74 @@
+*{
+	
+  background-color:#1088a0;
+  font-size:20px;
+}
+
+.logo img{
+	width:250px;
+	float:left;
+	padding-left:100px;
+}
+
+.Navigate {
+  overflow: hidden;
+  font-family: Garamond;
+  padding-top:15px;
+  padding-left:8%;
+}
+
+
+.navig {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:600;
+}
+
+.Navigate a:hover,.signup:hover{
+  color : #79B2C5 ;
+}
+
+.signup {
+  float: right;
+  overflow: hidden;
+}
+
+
+.signup .signbtn {
+  outline: none;
+  color: white;
+  background-color:transparent;
+  padding: 8px 22px;
+  font-family: Garamond;
+  margin-right: 10px; 
+  font-weight:600;
+}
+
+ .signup:hover .signbtn{
+	 color : #79B2C5 ;
+ }
+ 
+ .login {
+  float: right;
+  overflow: hidden;
+}
+
+
+.login .loginbtn {
+  outline: none;
+  color: white;
+  background-color:transparent;
+  padding: 8px 22px;
+  font-family: Garamond;
+  margin-right: 10px;
+  font-weight:600;
+}
+
+ .login:hover .loginbtn{
+	 color :#79B2C5 ;
+ }
+ 
+ 

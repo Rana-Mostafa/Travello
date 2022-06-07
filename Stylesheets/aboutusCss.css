@@ -1,0 +1,78 @@
+.introImage{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('D:/ITI/Web/Project/Home imgs/aboutus.jpg');
+  min-height: 100%;
+  position:relative; 
+  opacity:0.75
+}
+
+.introStyle{
+	white-space:nowrap;
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#fff;
+	background-color:#000;
+	font-size:24px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}
+
+
+.centeredtitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+#paragraphaboutus{
+	padding:20px;
+	text-align:justify;
+	font-family:Courier New;
+	margin-left:70px;
+	margin-right:70px;
+	font-size: 20px;
+	font-style: oblique;
+}
+h1{
+	font-family:Lato, sans-serif;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgBox{
+	position: relative;
+    width: 20%;
+	margin-left:1%;
+    max-width: 20%;
+}
+
+.imgBox_home {
+    padding-top:20px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 13px;
+    color: #888;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    text-align: center;
+	height:258px;
+}
+
+.offer{
+	width:200px;
+	height:200px;
+	border-radius: 37%;
+}
+

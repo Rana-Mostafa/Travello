@@ -1,0 +1,130 @@
+
+
+.introImage{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('D:/ITI/Web/Project/Home imgs/sea2.jpg');
+  min-height: 100%;
+  position:relative; 
+  opacity:0.75
+}
+
+.introStyle{
+	white-space:nowrap;
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#fff;
+	background-color:#000;
+	font-size:24px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}
+
+.introStyle1{
+	white-space:nowrap;
+	position:absolute;
+	top:60%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#000;
+	font-size:24px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.titlebranche {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+#imgbranch{
+	
+	width: 100%;
+    height: 90%;
+}
+.addtitle{
+	text-align:center;
+	color:#188AB3;
+	font-family:Lato, sans-serif;
+	margin-top:5%;
+	padding-top:5%;
+}
+
+.details{
+	margin-left:5%;
+	float: left;	
+	margin-top:40%;
+	padding-top:5%;	
+}
+.address{
+	float: left;
+   font-size:15px;	
+   font-family:Courier New;
+   margin-top:5%;
+   padding-top:5%;
+}
+
+
+
+#alex{
+	box-shadow:10px 0 10px 1px #ccc;
+    height: 270px;
+	width:440px;
+	float:left;
+	margin-left:15%;
+	background-color:white;
+
+
+	
+}
+#maadi{
+	margin-bottom:25%;  
+	box-shadow:10px 0 10px 1px #ccc;
+	float:right;
+	margin-right:15%;
+	height: 270px;
+	width:440px;
+	background-color:white;
+
+	
+}
+#sheraton{
+	 box-shadow:10px 0 10px 1px #ccc;
+	 height: 270px;
+	 width:440px;
+	 float: left;
+	 margin-left:15%;
+     margin-top:5%;
+	 background-color:white;
+
+
+
+}
+#mohand{
+	height: 270px;
+	width: 440px;
+	box-shadow:10px 0 10px 1px #ccc;
+    float:right;
+    margin-right:-29%;
+	margin-top:5%;
+	background-color:white;
+
+
+
+}
+table{border:0px;}

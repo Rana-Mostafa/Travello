@@ -1,0 +1,156 @@
+* {
+margin: 0;
+padding: 0;
+list-style-type:none;
+font-family: Lato, sans-serif;
+box-sizing: border-box;
+}
+
+
+a.prev,a.next {
+	height:91px;
+	position:absolute;
+	width:43px;
+	top:30%;
+	margin-top:40px;
+	opacity:0.6;
+	text-indent:-99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+.prev {
+	left:0;
+	background: #000 url('D:/ITI/Web/Project/Home imgs/arrows.png') no-repeat -200px 25px;
+}
+.next {
+	right:0;
+	background: #000 url('D:/ITI/Web/Project/Home imgs/arrows.png') no-repeat -167px 25px;
+}
+.slider {
+	height:100vh;
+	position: relative;
+}
+.slide {
+	position:absolute;
+	height:90%;
+	width:100%;
+}
+.slider .slide:target {
+	z-index: 100;
+}
+
+.image {
+	width:100%;
+	height:100%;
+	left:0;
+}
+
+.imgBox{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.imgBox_home {
+    padding: 30px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+    color: #888;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    text-align: left;
+}
+
+.offer{
+	width:550px;
+	height:400px;
+}
+
+.imgBox_home h3
+{
+	font-size: 1.2rem;
+}
+
+.Offerbtn{
+	background-color: #1088a0;
+    border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 30px;
+	cursor: pointer;
+	text-decoration:none;
+	padding: 10px;
+	border-radius:10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature_home {
+    padding: 30px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+    color: #888;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.feature_home i {
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    text-align: center;
+    border: none;
+    font-size: 62px;
+    color: #6dcff6;
+}
+
+.features{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.whyImage{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('D:/ITI/Web/Project/Home imgs/travel-4.jpg');
+  min-height: 100%;
+}
+
+.whyStyle{
+	white-space:nowrap;
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#fff;
+	background-color:#000;
+	font-size:24px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}

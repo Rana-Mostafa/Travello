@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+    font-family:Courier New;
+}
+
+.introImage{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position:relative; 
+  opacity:1;
+  background-image: url('D:/ITI/Web/Project/Destinations/Imgs/intro.jpg');
+}
+
+.introStyle{
+	white-space:nowrap;
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	padding:12px 24px;
+	color:#fff;
+	background-color:#000;
+	font-size:26px;
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	letter-spacing:4px;
+}
+
+
+img{
+	position:relative;
+	width: 300px;
+	height: 300px
+}
+
+
+.box .fa{
+	font-size: 15px;
+	color: #ff5722;
+}
+
+
+button{
+	font-family:Courier New;
+	border: 1px solid #000000;
+	background: transparent;
+	outline: none;
+	padding: 8px 18px;
+	color: #000000;
+	border-radius: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+button:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+
+.box{
+	flex:1 1 30px;
+	border-radius: .5px;
+	overflow: hidden;
+    padding: 30px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 13px;
+    color: #888;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
